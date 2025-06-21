@@ -72,3 +72,21 @@ p {
     color: #ffffff; }
 
 /*# sourceMappingURL=bd-coming-soon.css.map */
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.mdi {
+    transition: transform 0.3s;
+  }
+
+.mdi:hover {
+    transform: scale(1.2);
+  }

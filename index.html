@@ -17,12 +17,34 @@
   <body class="min-vh-100 d-flex flex-column">
     <header>
       <div class="container">
-        <nav class="navbar navbar-dark bg-transparent">
-          <a class="navbar-brand" href="#">
-            <span class="navbar-text d-none d-sm-inline-block">Saahyog</span>
-          </a>
-          <span class="navbar-text ml-auto d-none d-sm-inline-block">9270501143</span>
-          <span class="navbar-text d-none d-sm-inline-block">Yogesh Kanthale</span>
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+         <a class="navbar-brand font-weight-bold" href="index.html" style="font-size: 40px; font-family: 'Karla', sans-serif;">
+            Saahyog
+         </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="foundation.html">Foundation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trekkers.html">Trekkers</a>
+              </li>
+              <li class="nav-item ml-md-4 text-white d-none d-md-block">
+                <div style="line-height: 1.2;">
+                  <div style="font-weight: 600;">9270501143</div>
+                  <div style="font-size: 0.9rem;">Yogesh Kanthale</div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
@@ -55,18 +77,27 @@
     </main>
 
     <footer>
-       <!-- Social Links -->
-      <div class="container py-5 text-center text-md-left">
-        <h5 class="mb-2" style="font-family: sans-serif;">Stay Connected</h5>
-        <div class="d-flex align-items-center">
-            <a href="https://chat.whatsapp.com/Kzrii5dIJI1Kmz19tc2yAb" class="social-link mr-3">
-              <i class="mdi mdi-whatsapp" style="font-size: 28px;"></i>
-            </a>
-            <a href="https://www.instagram.com/saahyog_trekkers?igsh=a3VieGg5bWVia3Zs" class="social-link">
-              <i class="mdi mdi-instagram" style="font-size: 28px;"></i>
-            </a>
+      <div class="container py-4">
+          <div class="row">
+          <div class="col-md-6 d-flex flex-column align-items-md-start align-items-center text-md-left text-center">
+              <h5 class="mb-2" style="font-family: sans-serif; color: white;">Stay Connected</h5>
+              <div class="d-flex">
+              <a href="https://chat.whatsapp.com/Kzrii5dIJI1Kmz19tc2yAb" class="text-white mr-3" aria-label="WhatsApp">
+                  <i class="mdi mdi-whatsapp" style="font-size: 28px;"></i>
+              </a>
+              <a href="https://www.instagram.com/saahyog_trekkers?igsh=a3VieGg5bWVia3Zs" class="text-white" aria-label="Instagram">
+                  <i class="mdi mdi-instagram" style="font-size: 28px;"></i>
+              </a>
               </div>
-            </div>
+          </div>
+          </div>
+      </div>
     </footer>
+
+      <!-- Required Bootstrap JS for toggler to work -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
   </body>
 </html>
